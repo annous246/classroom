@@ -5,11 +5,21 @@
   height: 100%;
   width: 100%;
 } */
-button{
+button {
   cursor: pointer;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.spanner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none !important;
+  color: black;
 }

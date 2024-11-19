@@ -1,0 +1,52 @@
+.container {
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  max-height: 100%;
+  overflow-y: auto;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #ebeeef;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: 0.2s all;
+  padding: 10px;
+}
+.container:hover {
+  background-color: #bae8f8;
+  transition: 0.2s all;
+}
+.image {
+  background-image: url("../../../assets/courseImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10em;
+  height: 5em;
+  border-radius: 1em;
+  margin-right: 1em;
+}
+.info {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  width: 60%;
+}
+.container img {
+  object-fit: contain;
+  border-radius: 30px;
+  width: 150px;
+  height: 100px;
+}
+.content {
+  justify-content: flex-start;
+}
